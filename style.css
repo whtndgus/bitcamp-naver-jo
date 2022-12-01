@@ -277,6 +277,9 @@ a:hover{
     background-size: 341px;
     background-repeat: no-repeat;
 }
+.naver-login-logo:hover{
+    cursor: pointer;
+}
 .naver-login-login p{
     max-width: 340px;
     color: grey;
@@ -592,7 +595,7 @@ hr{
         color: #202020;
         font-family: "Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
     }
-    a{
+    .naver-body a{
         text-align: center;
         text-decoration: none;
         display: inline-block;
