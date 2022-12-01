@@ -605,15 +605,125 @@ a:hover{
 }
 /*-------*/
 
-
+/*4*/
 .naver-ad-4 {
     border-bottom: 1px solid #dae1e6;
     padding: 0;
     width: 370px;
-    height: 250px;
+    height: 270px;
     margin-top: 4px;
     margin-left: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
 }
+.sibalparents{
+    /* border: 1px solid black; */
+    width: 331px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.sibalparents *{
+    padding: 0;
+}
+
+
+
+#sibal1{
+    border-bottom: 3px solid;
+    color: #03c75a;
+    font-weight: 700;
+    border-color: #19ce60;
+    margin-left: 10px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+#sibal2{
+    word-spacing: 2px;
+    cursor: pointer;
+}
+
+#sibal3{
+    font-weight: bold;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+#sibal4{
+    cursor: pointer;
+}
+
+#sibal5{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background-image: url(yang.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    vertical-align: middle;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/* 2----------------------------------------------- */
+
+.picaparents{
+    width: 331px;
+  height:173.2px;
+    /* border: 1px solid black; */
+}
+#pica1{
+    display: inline-block;
+    width: 331px;
+    height: 180px;
+    background-image: url(pica.png);
+    background-repeat: no-repeat;
+    background-size: 331px;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+/* 3----------------------------------------------- */
+
+.pocketparents{
+    width: 331px;
+    height:35px;
+    /* border: 1px solid black; */
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    font-weight: 700;
+}
+
+#pocket1{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#pocket2{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+#pocket1:hover{
+    text-decoration: underline;
+}
+
+#pocket2:hover{
+    text-decoration: underline;
+}
+
+/*---*/
+
+
+
+
+
+
 
 .naver-ad-5 {
     border-bottom: 1px solid #dae1e6;
@@ -712,10 +822,13 @@ hr{
     padding: 0;
     margin-top: 25px;
     border-top: 2px solid #d3d3d3;
-
+    position: relative;
 }
 .naver-foot-middle-mid-left{
+    display: inline-block;
     padding: 0;
+    height: 120px;
+    width: 800px;
     padding-top: 18px;
 }
 .naver-foot-middle-mid-left ul{
@@ -731,6 +844,60 @@ hr{
     padding: 0;
     display: inline-block;
 }
+.naver-foot-middle-mid-right{
+    padding: 0;
+    display: inline-block;
+    width: 370px;
+    height: 110px;
+    position: absolute;
+    padding-top: 15px;
+    right: 0;
+    top: 0;
+}
+.naver-foot-middle-mid-right *{
+    padding: 0;
+}
+.naver-foot-middle-mid-right a{
+    color: #808080;
+}
+.naver-foot-middle-mid-right a:hover{
+    text-decoration: underline;
+    color: #03C75A;
+}
+.naver-foot-middle-mid-right p{
+    width: 110px;
+    font-weight: bold;
+}
+.naver-foot-middle-mid-right img{
+    width: 60px;
+    float: right;
+    vertical-align: top;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.naver-foot-middle-mid-right img:hover{
+    cursor: pointer;
+}
+.whale{
+    display: inline-block;
+    width: 180px;
+    height: 110px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.flower{
+    display: inline-block;
+    width: 180px;
+    height: 110px;
+    padding-top: 30px;
+    margin-left: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
+
 
 .naver-foot-middle-bot{
     padding: 0;
