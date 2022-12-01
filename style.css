@@ -396,6 +396,15 @@ a:hover{
 
 
 
+.naver-ad{
+    border: 1px solid green;
+    min-width: 360px;
+    min-height: 2300px;
+    position: absolute;
+    top: 240px;
+    right: 10px;
+}
+
 
 
 hr{
@@ -420,6 +429,7 @@ hr{
     float: left;
 }
 
+
 .naver-news{
     min-width: 730px;
     min-height: 440px;
@@ -433,6 +443,7 @@ hr{
 
 
 
+
 .naver-foot{
     border-top: 2px solid #d3d3d3;
     background-color: #FAFBFC;
@@ -441,14 +452,80 @@ hr{
     max-height: 380px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
 }
 .naver-foot-middle{
-    border: 1px solid black;
     width: 1200px;
     height: 392px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
 }
+
+.naver-foot-middle-top{
+    width: 1200px;
+    height: 25px;
+    padding: 0;
+    margin-top: 50px;
+    border-top: 2px solid #d3d3d3;
+    font-size: 14px;
+    font-family: "고딕";
+    color: #202020;
+}
+.naver-foot-middle-top-left{
+    float: left;
+    padding: 0;
+    line-height: 55px;
+}
+.naver-foot-middle-top-right{
+    float: right;
+    padding: 0;
+    line-height: 55px;
+}
+.span-right{
+    font-size: 14px;
+}
+.naver-foot-middle-top a:hover{
+    text-decoration: underline;
+}
+
+.naver-foot-middle-mid{
+    padding: 0;
+    margin-top: 25px;
+    border-top: 2px solid #d3d3d3;
+
+}
+.naver-foot-middle-mid-left{
+    padding: 0;
+    padding-top: 18px;
+}
+.naver-foot-middle-mid-left ul{
+    color: #585858;
+    padding: 0;
+    padding-bottom: 11px;
+}
+.naver-foot-middle-mid-left span{
+    font-weight: bold;
+    color: black;
+}
+.naver-foot-middle-mid-left li{
+    padding: 0;
+    display: inline-block;
+}
+
+.naver-foot-middle-bot{
+    padding: 0;
+    margin-top: 25px;
+    border-top: 2px solid #d3d3d3;
+    padding-top: 18px;
+}
+
+
+
+
+
+
+
 .absol{
     width: 230px;
     height: 55px;
@@ -549,6 +626,7 @@ hr{
    }
    
    #newshome{
+        padding: 0;
        color: blue;
        cursor: pointer;
    }
@@ -559,14 +637,15 @@ hr{
    }
    
    #qatar{
+        padding: 0;
        display:inline-block;
-       width: 110px;
+       width: 105px;
        height: 30px;
        background-image:url(./img/qatar.png);
        background-size: 110px;
        background-repeat: no-repeat;
        vertical-align: middle;
-       margin-left: 20px;
+       margin-left: 10px;
        margin-top: 4px;
        cursor: pointer;
    }
@@ -621,6 +700,7 @@ hr{
    }
    
    #code1{
+        padding: 0;
        color: #c7ccd1;
        font-size: 25px;
    }
