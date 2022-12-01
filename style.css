@@ -66,6 +66,21 @@ body{
     padding: 0;
     position: relative;
 }
+.search .search-text{
+    display: inline-block;
+    width: 520px;
+    height: 35px;
+    border: none;
+    background: transparent;
+    margin: 0.7%;
+    margin-left: 1.4%;
+    font-size: large;
+    font-family: 궁서;
+}
+.search .search-text:focus{
+    outline: none;
+    background: transparent;
+}
 .search-down{
     color: #2DB400;
     position: absolute;
@@ -77,12 +92,12 @@ body{
 }
 .search-button{
     display: block;
-    width: 39px;
-    height: 39px;
+    width: 7%;
     border: 1px solid #2DB400;
     background-color: #2DB400;
     float: right;
     margin: 0;
+    padding: 4px;
 }
 .search-button:hover{
     cursor: pointer;
