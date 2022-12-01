@@ -516,6 +516,67 @@ a:hover{
     margin-top: 4px;
     margin-left: 5px;
 }
+.side-letter1{
+    text-align: right;
+}
+.side-letter1 a{
+    float: right;
+}
+.naver-ad-second *{
+    padding: auto;
+}
+.naver-ad{
+    margin: 0 auto;
+}
+.side-letter2{
+    
+    height: 620px;
+    width: 350px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+    
+    
+    
+}
+ .side-letter2-1{
+    width: 110px;
+    height: 138px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+ }
+ .side-letter2-1 img{
+    width: 80px;
+ }
+ .side-letter2-1 *{
+    padding: 0;
+ }
+ .side-letter2-1 a{
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #202020;
+ }
+ .side-letter2-1 a:hover{
+    text-decoration: underline;
+ }
+ .side-letter2-2{
+        
+    box-sizing: border-box;
+ }
+ .side-letter3{
+    margin: 0 auto;
+    text-align: center;
+    float: right;
+ }
+
+
+
+
+
+
+
 
 /*이건형님 CSS*/
 .naver-ad-tirth {
@@ -729,10 +790,110 @@ a:hover{
     border-bottom: 1px solid #dae1e6;
     padding: 0;
     width: 370px;
-    height: 250px;
+    height: 300px;
     margin-top: 4px;
     margin-left: 5px;
 }
+.naver-ad-5 *{
+    padding: 0;
+}
+.hiparents{
+    /* border: 1px solid black; */
+    width: 331px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    padding-bottom: 5px;
+    margin-left: 19px;
+}
+
+
+#hi1{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background-image: url(hi.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    vertical-align: middle;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+#hi2{
+    word-spacing:0;
+    cursor: pointer;
+}
+
+#hi3{
+    font-weight: bold;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+#hi4{
+    cursor: pointer;
+}
+
+#hi5{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background-image: url(yang.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    vertical-align: middle;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/* 2----------------------------------------------- */
+
+.palaparents{
+    /* border: 1px solid black; */
+    width: 331px;
+    height: 228px;
+    margin-left: 17px;
+}
+
+.palaparents > img{
+    float:left;
+    width: 160px;
+    height: 220px;
+    margin-right: 6px;
+    margin-top: -8px;
+}
+
+.palaparents > p{
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 12px;
+}
+
+#pala1{
+    line-height: 4px;
+}
+
+#pala2{
+    margin-top: 35px;
+    line-height: 0px;
+}
+#pala20{
+    margin-top: 15px;
+    line-height: 0px;
+}
+
+#pala3{
+    line-height: 4px;
+    margin-top: 35px;
+}
+#pala30{
+    line-height: 4px;
+}
+
+
+
+
 
 
 
