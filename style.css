@@ -41,13 +41,13 @@ body{
     border-radius: 100%;
     background-color: white;
     color: slategrey;
-    width: 11px;
-    height: 11px;
+    width: 18px;
+    height: 18px;
     font-size: small;
     font-weight: bold;
     text-align: center;
-    line-height: 11px;
-    box-shadow: 5px 5px 10px
+    box-shadow: 5px 5px 10px;
+    padding: 0;
 }
 .search-bg{
     max-width: 900px;
@@ -264,6 +264,17 @@ a:hover{
 }
 .naver-login-login p{
     max-width: 340px;
+    color: grey;
+    padding: 0;
+    margin-bottom: 2px;
+}
+.naver-login-login span{
+    font-weight: lighter;
+    font-size: 14px;
+    color: #202020;
+}
+.naver-login-login span:hover{
+    text-decoration: underline;
 }
 .signin{
     float: right;
@@ -298,17 +309,34 @@ a:hover{
     box-sizing: border-box;
 }
 .naver-login-dollar{
-    border: 1px solid black;
     display: inline-block;
     width: 272px;
     height: 50px;
     margin: 0;
     box-sizing: border-box;
-    padding: 14px 0px 13px 16px;
+    padding: 12px 0px 10px 7px;
     float:left;
 }
+.isue{
+    border: 0.2px solid #202020;
+    border-radius: 10px;
+    width: 40px;
+    height: 19px;
+    display: inline-block;
+    font-size: smaller;
+    padding: 0;
+    text-align: center;
+    color: #202020;
+    font-style: normal;
+}
+.naver-login-dollar span{
+    font-size: smaller;
+    color: #404040;
+}
+.naver-login-dollar span:hover{
+    text-decoration: underline;
+}
 .naver-login-move{
-    border: 1px solid black;
     display: inline-block;
     width: 100px;
     height: 50px;
@@ -317,6 +345,35 @@ a:hover{
     padding: 11px 10px 10px 0px;
     float:left;
 }
+.move-button{
+    min-width: 54px;
+    width: 60px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    margin-left: 40%;
+}
+.move-button a{
+    font-size: x-large;
+    padding: 0;
+    color: slategray;
+    line-height: 17px;
+}
+.move-button a:hover{
+    color: black;
+}
+.move-left{
+    border: 0.2px solid #e4e8eb;
+    float: left;
+    width: 22px;
+    height: 22px;
+}
+.move-right{
+    border: 0.2px solid #e4e8eb;
+    float: left;
+    width: 22px;
+    height: 22px;
+}
 
 
 
@@ -324,11 +381,12 @@ a:hover{
 
 hr{
     border: 1px solid white;
-    border-bottom: 2px solid #bbb;
+    border-bottom: 2px solid #d3d3d3;
     margin-top: 10px;
     margin-bottom: 3px;
 }
-hr~.shadow{
+
+.shadow{
     height: 10px;
     border: 0;
     box-shadow: 0 10px 10px -10px #bbb inset;
@@ -393,14 +451,14 @@ hr~.shadow{
    
    #qatar{
        display:inline-block;
-       width: 80px;
+       width: 110px;
        height: 30px;
        background-image:url(./img/qatar.png);
-       background-size: 80px;
+       background-size: 110px;
        background-repeat: no-repeat;
        vertical-align: middle;
-       margin-left: 50px;
-       margin-top: 2px;
+       margin-left: 20px;
+       margin-top: 4px;
        cursor: pointer;
    }
    
